@@ -1,0 +1,98 @@
+*{margin:0; padding:0;}
+
+.App {
+  padding: 2.5vw 4vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: #E7E5D9;
+  /* height: 100vh; */
+}
+
+.combo1 {
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  height: 30%;
+  z-index: 0;
+}
+
+.combo2 {
+  position: absolute;
+  bottom: 0;
+  left: 0px;
+  height: 25%;
+  /* z-index: 0; */
+}
+
+.title_area {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+}
+
+.name {
+  color: #77675B;
+  font-size: max(6vw, 16px);
+  font-weight: 800;
+  font-style: italic;
+  white-space: nowrap;
+  margin-right: 2vw;
+  white-space: nowrap;
+  /* TODO: fix layout for extreme case : height = screen height, width = smallest width */
+}
+
+.right_part {
+  display: flex;
+  align-items: center;
+}
+
+.vertical_bar {
+  height: 6vw; 
+  background-color: #AA9789; 
+  margin-top: 12.5vh;
+  margin-right: 2vw;
+}
+
+.job_titles {
+  color: #AA9789;
+  font-size: 2.5vw;
+  font-weight: 600;
+  margin-top: 12vh;
+  align-self: flex-end;
+}
+
+.horizontal_line {
+  padding: 0.5vw;
+  width: 30vw;
+}
+
+.contacts {
+  color: #AA9789;
+  font-size: 1.3vw;
+  font-weight: 600;
+}
+
+
+/* ============================ */
+.portfolio-showplace {
+  display: flex;
+  align-items: center; 
+  justify-content: space-between;
+}
+
+.introduction {
+  color: #846657;
+  font-size: 1.7vw;
+  font-weight: 600;
+  font-style: italic;
+  width: 40%;
+  margin-top: 3vh;
+  z-index: 1;
+}
+
+.slider-container {
+  margin-top: 15px;
+  width: 55%; 
+  height: 100%; 
+}
